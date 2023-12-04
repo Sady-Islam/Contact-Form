@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact {
+    width: 400px;
+    color: red;
+    border: 3px solid red;
+    margin: 100px auto 0px;
+    padding: 50px;
+}
+.contact input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.contact label {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+.contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.contact input[type="submit"] {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px darkblue;
+}
